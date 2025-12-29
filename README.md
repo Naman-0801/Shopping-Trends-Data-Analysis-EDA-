@@ -1,176 +1,202 @@
-**🛍️ Shopping Trends Data Analysis (EDA)**
+**# 🛍️ Shopping Trends Data Analysis (EDA)**
 
-**📌 Project Overview**
 
-**This project performs Exploratory Data Analysis (EDA) on shopping trends data to understand customer purchasing behavior, product preferences, and spending patterns. The goal is to extract meaningful business insights that support data-driven decision-making in a retail or e-commerce context.**
 
+**<grok-card data-id="519bf8" data-type="image\_card"  data-arg-size="LARGE" ></grok-card>**
 
 
-**📊 Dataset Description**
 
-**The dataset contains customer shopping information, including demographic details, transaction attributes, and purchase behavior.**
 
-**Key Features Include:**
 
 
 
-**Customer age and gender**
+**<grok-card data-id="e2391d" data-type="image\_card"  data-arg-size="LARGE" ></grok-card>**
 
-**Product category**
 
-**Purchase amount**
 
-**Payment method**
 
-**Purchase frequency**
 
-**Subscription status**
 
 
+**<grok-card data-id="db04cd" data-type="image\_card"  data-arg-size="LARGE" ></grok-card>**
 
-**The dataset includes both categorical and numerical variables, making it suitable for comprehensive exploratory analysis.**
 
 
 
-**🎯 Objectives**
 
+**## 📌 Project Overview**
 
 
-**Analyze customer purchasing patterns**
 
-**Identify popular product categories**
+**This project performs \*\*Exploratory Data Analysis (EDA)\*\* on a shopping trends dataset to understand customer purchasing behavior, product preferences, and spending patterns. The goal is to extract meaningful \*\*business insights\*\* that support data-driven decision-making in retail or e-commerce.**
 
-**Understand spending behavior across demographics**
 
-**Examine differences between subscribed and non-subscribed customers**
 
-**Explore preferred payment methods and purchase frequency**
+**---**
 
 
 
+**## 📊 Dataset Description**
 
 
-**🔍 Exploratory Data Analysis Performed**
 
-**The following EDA steps were carried out:**
+**The dataset contains customer shopping information with demographic details, transaction attributes, and purchase behavior.**
 
 
 
-**Data loading and initial inspection**
+**### Key Features Include:**
 
-**Understanding dataset structure and feature types**
+**- Customer age and gender**
 
-**Frequency analysis of categorical variables**
+**- Product category and item purchased**
 
-**Aggregations using groupby()**
+**- Purchase amount (USD)**
 
-**Univariate and bivariate analysis**
+**- Payment method**
 
-**Visualization of trends using charts**
+**- Purchase frequency**
 
+**- Subscription status**
 
+**- Additional: Location, season, review rating, shipping type, promo code usage**
 
-**Comparisons Were Performed Across:**
 
 
+**It features a mix of \*\*categorical\*\* and \*\*numerical\*\* variables, ideal for comprehensive EDA.**
 
-**Gender**
 
-**Age groups**
 
-**Product categories**
+**---**
 
-**Payment methods**
 
-**Subscription status**
 
+**## 🎯 Objectives**
 
 
 
+**- Analyze customer purchasing patterns**
 
-**📈 Key Insights**
+**- Identify popular product categories**
 
+**- Understand spending behavior across demographics**
 
+**- Examine differences between subscribed and non-subscribed customers**
 
-**Certain product categories show higher customer engagement**
+**- Explore preferred payment methods and purchase frequency**
 
-**Purchasing behavior varies across age groups and gender**
 
-**Subscription status influences buying patterns**
 
-**Some payment methods are significantly more popular than others**
+**---**
 
-**Purchase frequency provides insights into customer loyalty**
 
 
+**## 🔍 Exploratory Data Analysis Performed**
 
 
 
-**🛠️ Tools \& Technologies**
+**The following steps were carried out:**
 
+**- Data loading and initial inspection**
 
+**- Dataset structure and feature types overview**
 
-**Python**
+**- Frequency analysis of categorical variables**
 
-**Pandas \& NumPy**
+**- Aggregations using `groupby()`**
 
-**Matplotlib \& Seaborn**
+**- Univariate and bivariate analysis**
 
-**Jupyter Notebook**
+**- Trend visualizations with charts**
 
 
 
+**### Comparisons Across:**
 
+**- Gender**
 
-**🚀 How to Run the Project Locally**
+**- Age groups**
 
-**1️⃣ Clone the Repository**
+**- Product categories**
 
-**git clone <your-repository-url>**
+**- Payment methods**
 
-**cd shopping-trends-analysis**
+**- Subscription status**
 
-**2️⃣ Install Dependencies**
 
-**pip install -r requirements.txt**
 
-**3️⃣ Open Jupyter Notebook**
+**<grok-card data-id="63998e" data-type="image\_card"  data-arg-size="LARGE" ></grok-card>**
 
-**jupyter notebook**
 
-**4️⃣ Run the Analysis**
 
-**Run all cells in the notebook to reproduce the analysis and visualizations.**
 
 
 
-**📁 Repository Structure**
 
-  **shopping-trends-analysis/**
+**<grok-card data-id="21bef6" data-type="image\_card"  data-arg-size="LARGE" ></grok-card>**
 
-**│**
 
-**├── data/**
 
-**│   └── shopping\_trends.csv**
 
-**│**
 
-**├── notebooks/**
 
-**│   └── Shopping\_Trends.ipynb**
 
-**│**
+**<grok-card data-id="f3e925" data-type="image\_card"  data-arg-size="LARGE" ></grok-card>**
 
-**├── README.md**
 
-**└── requirements.txt**
 
-**👤 Author**
 
-**Naman**
 
-**Aspiring Data Analyst / Data Scientist**
+**---**
 
-**Feel free to connect or contribute! 🚀**
+
+
+**## 📈 Key Insights**
+
+
+
+**- Certain product categories (e.g., Clothing, Accessories) show higher engagement**
+
+**- Purchasing behavior varies significantly across age groups and gender**
+
+**- Subscription status strongly influences buying patterns and loyalty**
+
+**- Some payment methods are overwhelmingly more popular**
+
+**- Purchase frequency highlights customer retention opportunities**
+
+
+
+**---**
+
+
+
+**## 🛠️ Tools \& Technologies**
+
+
+
+**- \*\*Python\*\***
+
+**- \*\*Pandas\*\* \& \*\*NumPy\*\***
+
+**- \*\*Matplotlib\*\* \& \*\*Seaborn\*\***
+
+**- \*\*Jupyter Notebook\*\***
+
+
+
+**---**
+
+
+
+**## 🚀 How to Run the Project Locally**
+
+
+
+**1. \*\*Clone the Repository\*\***
+
+   **```bash**
+
+   **git clone <your-repository-url>**
+
+   **cd shopping-trends-analysis**
 
