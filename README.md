@@ -1,206 +1,206 @@
-**# 🛍️ Shopping Trends Data Analysis (EDA)**
+  **# 🛍️ Shopping Trends Data Analysis (EDA)**
 
 
 
-**## 📌 Project Overview**
+  **## 📌 Project Overview**
 
-**This project performs \*\*Exploratory Data Analysis (EDA)\*\* on shopping trends data to understand customer purchasing behavior, product preferences, and spending patterns.**  
+  **This project performs \*\*Exploratory Data Analysis (EDA)\*\* on shopping trends data to understand customer purchasing behavior, product preferences, and spending patterns.**  
 
-**The goal is to extract meaningful \*\*business insights\*\* that support data-driven decision-making in a retail or e-commerce context.**
+  **The goal is to extract meaningful \*\*business insights\*\* that support data-driven decision-making in a retail or e-commerce context.**
 
 
 
-**---**
+  **---**
 
 
 
-**## 📊 Dataset Description**
+  **## 📊 Dataset Description**
 
-**The dataset contains customer shopping information, including demographic details, transaction attributes, and purchase behavior.**
+  **The dataset contains customer shopping information, including demographic details, transaction attributes, and purchase behavior.**
 
 
 
-**### Key Features Include:**
+  **### Key Features Include:**
 
-**- Customer age and gender**
+  **- Customer age and gender**
 
-**- Product category**
+  **- Product category**
 
-**- Purchase amount**
+  **- Purchase amount**
 
-**- Payment method**
+  **- Payment method**
 
-**- Purchase frequency**
+  **- Purchase frequency**
 
-**- Subscription status**
+  **- Subscription status**
 
 
 
-**The dataset includes both \*\*categorical and numerical variables\*\*, making it suitable for comprehensive exploratory analysis.**
+  **The dataset includes both \*\*categorical and numerical variables\*\*, making it suitable for comprehensive exploratory analysis.**
 
 
 
-**---**
+  **---**
 
 
 
-**## 🎯 Objectives**
+  **## 🎯 Objectives**
 
-**- Analyze customer purchasing patterns**
+  **- Analyze customer purchasing patterns**
 
-**- Identify popular product categories**
+  **- Identify popular product categories**
 
-**- Understand spending behavior across demographics**
+  **- Understand spending behavior across demographics**
 
-**- Examine differences between subscribed and non-subscribed customers**
+  **- Examine differences between subscribed and non-subscribed customers**
 
-**- Explore preferred payment methods and purchase frequency**
+  **- Explore preferred payment methods and purchase frequency**
 
 
 
-**---**
+  **---**
 
 
 
-**## 🔍 Exploratory Data Analysis Performed**
+  **## 🔍 Exploratory Data Analysis Performed**
 
-**The following EDA steps were carried out:**
+  **The following EDA steps were carried out:**
 
-**- Data loading and initial inspection**
+  **- Data loading and initial inspection**
 
-**- Understanding dataset structure and feature types**
+  **- Understanding dataset structure and feature types**
 
-**- Frequency analysis of categorical variables**
+  **- Frequency analysis of categorical variables**
 
-**- Aggregations using `groupby()`**
+  **- Aggregations using `groupby()`**
 
-**- Univariate and bivariate analysis**
+  **- Univariate and bivariate analysis**
 
-**- Visualization of trends using charts**
+  **- Visualization of trends using charts**
 
 
 
-**### Comparisons Were Performed Across:**
+  **### Comparisons Were Performed Across:**
 
-**- Gender**
+  **- Gender**
 
-**- Age groups**
+  **- Age groups**
 
-**- Product categories**
+  **- Product categories**
 
-**- Payment methods**
+  **- Payment methods**
 
-**- Subscription status**
+  **- Subscription status**
 
 
 
-**---**
+  **---**
 
 
 
-**## 📈 Key Insights**
+  **## 📈 Key Insights**
 
-**- Certain product categories show higher customer engagement**
+  **- Certain product categories show higher customer engagement**
 
-**- Purchasing behavior varies across age groups and gender**
+  **- Purchasing behavior varies across age groups and gender**
 
-**- Subscription status influences buying patterns**
+  **- Subscription status influences buying patterns**
 
-**- Some payment methods are significantly more popular than others**
+  **- Some payment methods are significantly more popular than others**
 
-**- Purchase frequency provides insights into customer loyalty**
+  **- Purchase frequency provides insights into customer loyalty**
 
 
 
-**---**
+  **---**
 
 
 
-**## 🛠️ Tools \& Technologies**
+  **## 🛠️ Tools \& Technologies**
 
-**- Python**
+  **- Python**
 
-**- Pandas \& NumPy**
+  **- Pandas \& NumPy**
 
-**- Matplotlib \& Seaborn**
+  **- Matplotlib \& Seaborn**
 
-**- Jupyter Notebook**
+  **- Jupyter Notebook**
 
 
 
-**---**
+  **---**
 
 
 
-**## 🚀 How to Run the Project Locally**
+  **## 🚀 How to Run the Project Locally**
 
 
 
-**### 1️⃣ Clone the Repository**
+  **### 1️⃣ Clone the Repository**
 
-    **git clone <your-repository-url>**
+      **git clone <your-repository-url>**
 
-    **cd shopping-trends-analysis**
+      **cd shopping-trends-analysis**
 
 
 
-**### 2️⃣ Install Dependencies**
+  **### 2️⃣ Install Dependencies**
 
-    **pip install -r requirements.txt**
+      **pip install -r requirements.txt**
 
 
 
-**### 3️⃣ Open Jupyter Notebook**
+  **### 3️⃣ Open Jupyter Notebook**
 
-    **jupyter notebook**
+      **jupyter notebook**
 
 
 
-**### 4️⃣ Run the Analysis**
+  **### 4️⃣ Run the Analysis**
 
-**Run all cells in the notebook to reproduce the analysis and visualizations.**
+  **Run all cells in the notebook to reproduce the analysis and visualizations.**
 
 
 
-**---**
+  **---**
 
 
 
-**## 📁 Repository Structure**
+  **## 📁 Repository Structure**
 
 
 
-    **shopping-trends-analysis/**
+      **shopping-trends-analysis/**
 
-    **│**
+      **│**
 
-    **├── data/**
+      **├── data/**
 
-    **│   └── shopping\_trends.csv**
+      **│   └── shopping\_trends.csv**
 
-    **│**
+      **│**
 
-    **├── notebooks/**
+      **├── notebooks/**
 
-    **│   └── Shopping\_Trends.ipynb**
+      **│   └── Shopping\_Trends.ipynb**
 
-    **│**
+      **│**
 
-    **├── README.md**
+      **├── README.md**
 
-    **└── requirements.txt**
+      **└── requirements.txt**
 
 
 
-**---**
+  **---**
 
 
 
-**## 👤 Author**
+  **## 👤 Author**
 
-**\*\*Naman\*\***  
+  **\*\*Naman\*\***  
 
-**Aspiring Data Analyst / Data Scientist**
+  **Aspiring Data Analyst / Data Scientist**
 
 
 
