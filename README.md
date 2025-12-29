@@ -94,8 +94,6 @@ shopping-trends-analysis/
 ├── README.md
 └── requirements.txt
 
-
-
 ---
 
 ## 👤 Author
