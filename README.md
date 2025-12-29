@@ -4,7 +4,7 @@
 
 **## 📌 Project Overview**
 
-**This project performs \*\*Exploratory Data Analysis (EDA)\*\* on shopping trends data to understand customer purchasing behavior, product preferences, and spending patterns.**  
+**This project performs \*\*Exploratory Data Analysis (EDA)\*\* on shopping trends data to understand customer purchasing behavior, product preferences, and spending patterns.**
 
 **The goal is to extract meaningful \*\*business insights\*\* that support data-driven decision-making in a retail or e-commerce context.**
 
@@ -138,21 +138,30 @@
 
 **### 1️⃣ Clone the Repository**
 
-    **git clone <your-repository-url>**
+&nbsp;   \*\*git clone <your-repository-url>\*\*
 
-    **cd shopping-trends-analysis**
+    \*\*cd shopping-trends-analysis\*\*
+
+
+
 
 
 
 **### 2️⃣ Install Dependencies**
 
-    **pip install -r requirements.txt**
+&nbsp;   \*\*pip install -r requirements.txt\*\*
+
+
+
 
 
 
 **### 3️⃣ Open Jupyter Notebook**
 
-    **jupyter notebook**
+&nbsp;   \*\*jupyter notebook\*\*
+
+
+
 
 
 
@@ -170,25 +179,28 @@
 
 
 
-    **shopping-trends-analysis/**
+&nbsp;   \*\*shopping-trends-analysis/\*\*
 
-    **│**
+    \*\*│\*\*
 
-    **├── data/**
+    \*\*├── data/\*\*
 
-    **│   └── shopping\_trends.csv**
+    \*\*│   └── shopping\\\_trends.csv\*\*
 
-    **│**
+    \*\*│\*\*
 
-    **├── notebooks/**
+    \*\*├── notebooks/\*\*
 
-    **│   └── Shopping\_Trends.ipynb**
+    \*\*│   └── Shopping\\\_Trends.ipynb\*\*
 
-    **│**
+    \*\*│\*\*
 
-    **├── README.md**
+    \*\*├── README.md\*\*
 
-    **└── requirements.txt**
+    \*\*└── requirements.txt\*\*
+
+
+
 
 
 
@@ -198,9 +210,7 @@
 
 **## 👤 Author**
 
-**\*\*Naman\*\***  
+**\*\*Naman\*\***
 
 **Aspiring Data Analyst / Data Scientist**
-
-
 
