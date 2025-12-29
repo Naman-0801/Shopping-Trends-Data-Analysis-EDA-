@@ -1,20 +1,10 @@
-**!\[Exploratory Data Analysis Banner](https://docs-us.oss-us-west-1.aliyuncs.com/images/readme/rath-main-banner2.png)**
-
-**!\[Retail EDA Visualization](https://media.licdn.com/dms/image/v2/D4D12AQE\_LLhH32vIHA/article-cover\_image-shrink\_720\_1280/article-cover\_image-shrink\_720\_1280/0/1705610341054?e=2147483647\&v=beta\&t=KlbTJCjv8SyTv5c5p0GVOTiqUH335N3YbVlwnb7j-Pc)**
-
-**!\[Customer Shopping Infographic](https://competera.ai/uploads/ckeditor/Infographic/Products\_bought\_online.jpeg)**
+**# 🚨 Fraud Detection Prediction System**
 
 
 
-**# 🛍️ Shopping Trends Data Analysis (EDA)**
+**An end-to-end \*\*Machine Learning project\*\* that predicts whether a transaction is \*\*fraudulent or legitimate\*\*.**  
 
-
-
-**## 📌 Project Overview**
-
-
-
-**This project performs \*\*Exploratory Data Analysis (EDA)\*\* on a shopping trends dataset to understand customer purchasing behavior, product preferences, and spending patterns. The goal is to extract meaningful \*\*business insights\*\* that support data-driven decision-making in retail or e-commerce.**
+**The project includes data analysis, model training, and an interactive \*\*Streamlit web application\*\* for real-time fraud prediction.**
 
 
 
@@ -22,33 +12,11 @@
 
 
 
-**## 📊 Dataset Description**
+**## 📌 Problem Statement**
 
+**Financial fraud leads to significant financial losses every year.**  
 
-
-**The dataset contains detailed customer shopping information, including demographic details, transaction attributes, and purchase behavior.**
-
-
-
-**### Key Features Include:**
-
-**- Customer age and gender**
-
-**- Product category and item purchased**
-
-**- Purchase amount (USD)**
-
-**- Payment method**
-
-**- Purchase frequency**
-
-**- Subscription status**
-
-**- Additional: Location, season, review rating, shipping type, promo code usage**
-
-
-
-**It includes both \*\*categorical\*\* and \*\*numerical\*\* variables, making it suitable for comprehensive exploratory analysis.**
+**The goal of this project is to build a machine learning model that can accurately \*\*detect fraudulent transactions\*\* based on input features and assist in reducing risk.**
 
 
 
@@ -56,65 +24,17 @@
 
 
 
-**## 🎯 Objectives**
+**## 🧠 Solution Overview**
 
+**- Performed data analysis and preprocessing on transaction data**
 
+**- Trained a machine learning classification model**
 
-**- Analyze customer purchasing patterns**
+**- Saved the trained model for reuse**
 
-**- Identify popular product categories**
+**- Developed an interactive Streamlit web application**
 
-**- Understand spending behavior across demographics**
-
-**- Examine differences between subscribed and non-subscribed customers**
-
-**- Explore preferred payment methods and purchase frequency**
-
-
-
-**---**
-
-
-
-**## 🔍 Exploratory Data Analysis Performed**
-
-
-
-**The following EDA steps were carried out:**
-
-**- Data loading and initial inspection**
-
-**- Understanding dataset structure and feature types**
-
-**- Frequency analysis of categorical variables**
-
-**- Aggregations using `groupby()`**
-
-**- Univariate and bivariate analysis**
-
-**- Visualization of trends using charts**
-
-
-
-**### Comparisons Performed Across:**
-
-**- Gender**
-
-**- Age groups**
-
-**- Product categories**
-
-**- Payment methods**
-
-**- Subscription status**
-
-
-
-**!\[EDA Charts Example](https://miro.medium.com/v2/resize:fit:1400/1\*fpDfc-Thp9Q0JcCvZODrEg.jpeg)**
-
-**!\[More Visualizations](https://miro.medium.com/v2/resize:fit:1400/0\*H\_n8vOAFo7Ku8URW.jpg)**
-
-**!\[Retail Insights Visualization](https://www.mastersindatascience.org/wp-content/uploads/sites/54/2022/07/Retail-example.jpg)**
+**- Designed the project to be clean, reproducible, and easy to run**
 
 
 
@@ -122,19 +42,19 @@
 
 
 
-**## 📈 Key Insights**
+**## 🖥️ Application Screenshots**
 
 
 
-**- Certain product categories show higher customer engagement**
+**### 🔹 Streamlit User Interface**
 
-**- Purchasing behavior varies across age groups and gender**
+**!\[App Home](Assets/Fraud\_detection\_home.png)**
 
-**- Subscription status influences buying patterns**
 
-**- Some payment methods are significantly more popular than others**
 
-**- Purchase frequency provides insights into customer loyalty**
+**### 🔹 Fraud Prediction Result**
+
+**!\[Prediction Result](Assets/prediction\_result.png)**
 
 
 
@@ -142,17 +62,61 @@
 
 
 
-**## 🛠️ Tools \& Technologies**
-
-
+**## 🛠️ Tech Stack**
 
 **- \*\*Python\*\***
 
-**- \*\*Pandas\*\* \& \*\*NumPy\*\***
+**- \*\*Pandas, NumPy\*\* – data processing**
 
-**- \*\*Matplotlib\*\* \& \*\*Seaborn\*\***
+**- \*\*Scikit-learn\*\* – machine learning**
 
-**- \*\*Jupyter Notebook\*\***
+**- \*\*Streamlit\*\* – web application**
+
+**- \*\*Joblib\*\* – model saving and loading**
+
+**- \*\*Matplotlib, Seaborn\*\* – visualization**
+
+
+
+**---**
+
+
+
+**## 📂 Project Structure**
+
+
+
+    **Project/**
+
+    **├── Fraud-Detection-Streamlit/**
+
+    **│   ├── Fraud\_detection.py**
+
+    **│   └── Model/**
+
+    **│       └── Fraud\_detection\_pipeline.pkl**
+
+    **│**
+
+    **├── NoteBook/**
+
+    **│   └── Analysis\_model.ipynb**
+
+    **│**
+
+    **├── assets/**
+
+    **│   ├── Fraud\_detection\_home.png**
+
+    **│   └── prediction\_result.png**
+
+    **│**
+
+    **├── requirements.txt**
+
+    **├── README.md**
+
+    **├── .gitignore**
 
 
 
@@ -164,11 +128,59 @@
 
 
 
-**1. \*\*Clone the Repository\*\***
+**### 1️⃣ Clone the repository**
 
-   **```bash**
 
-   **git clone <your-repository-url>**
 
-   **cd shopping-trends-analysis**
+    **git clone https://github.com/Naman-0801/Fraud\_Detection\_Model.git**
+
+    **cd Project**
+
+
+
+**### 2️⃣ Install dependencies**
+
+
+
+    **pip install -r requirements.txt**
+
+
+
+**### 3️⃣ Run the Streamlit application**
+
+
+
+    **streamlit run Fraud-Detection-Streamlit/Fraud\_detection.py**
+
+
+
+**The application will open automatically in your browser.**
+
+
+
+**---**
+
+
+
+**## 📁 Dataset**
+
+**The dataset used for training is \*\*not included\*\* in this repository due to size limitations.**
+
+
+
+**Dataset source:**  
+
+**https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset**
+
+
+
+**---**
+
+
+
+**## 👤 Author**
+
+**\*\*Naman\*\***  
+
+**Aspiring Data Analyst / Data Scientist**
 
