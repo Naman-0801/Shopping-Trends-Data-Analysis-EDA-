@@ -1,26 +1,12 @@
+**!\[Exploratory Data Analysis Banner](https://docs-us.oss-us-west-1.aliyuncs.com/images/readme/rath-main-banner2.png)**
+
+**!\[Retail EDA Visualization](https://media.licdn.com/dms/image/v2/D4D12AQE\_LLhH32vIHA/article-cover\_image-shrink\_720\_1280/article-cover\_image-shrink\_720\_1280/0/1705610341054?e=2147483647\&v=beta\&t=KlbTJCjv8SyTv5c5p0GVOTiqUH335N3YbVlwnb7j-Pc)**
+
+**!\[Customer Shopping Infographic](https://competera.ai/uploads/ckeditor/Infographic/Products\_bought\_online.jpeg)**
+
+
+
 **# 🛍️ Shopping Trends Data Analysis (EDA)**
-
-
-
-**<grok-card data-id="519bf8" data-type="image\_card"  data-arg-size="LARGE" ></grok-card>**
-
-
-
-
-
-
-
-**<grok-card data-id="e2391d" data-type="image\_card"  data-arg-size="LARGE" ></grok-card>**
-
-
-
-
-
-
-
-**<grok-card data-id="db04cd" data-type="image\_card"  data-arg-size="LARGE" ></grok-card>**
-
-
 
 
 
@@ -40,7 +26,7 @@
 
 
 
-**The dataset contains customer shopping information with demographic details, transaction attributes, and purchase behavior.**
+**The dataset contains detailed customer shopping information, including demographic details, transaction attributes, and purchase behavior.**
 
 
 
@@ -62,7 +48,7 @@
 
 
 
-**It features a mix of \*\*categorical\*\* and \*\*numerical\*\* variables, ideal for comprehensive EDA.**
+**It includes both \*\*categorical\*\* and \*\*numerical\*\* variables, making it suitable for comprehensive exploratory analysis.**
 
 
 
@@ -94,11 +80,11 @@
 
 
 
-**The following steps were carried out:**
+**The following EDA steps were carried out:**
 
 **- Data loading and initial inspection**
 
-**- Dataset structure and feature types overview**
+**- Understanding dataset structure and feature types**
 
 **- Frequency analysis of categorical variables**
 
@@ -106,11 +92,11 @@
 
 **- Univariate and bivariate analysis**
 
-**- Trend visualizations with charts**
+**- Visualization of trends using charts**
 
 
 
-**### Comparisons Across:**
+**### Comparisons Performed Across:**
 
 **- Gender**
 
@@ -124,25 +110,11 @@
 
 
 
-**<grok-card data-id="63998e" data-type="image\_card"  data-arg-size="LARGE" ></grok-card>**
+**!\[EDA Charts Example](https://miro.medium.com/v2/resize:fit:1400/1\*fpDfc-Thp9Q0JcCvZODrEg.jpeg)**
 
+**!\[More Visualizations](https://miro.medium.com/v2/resize:fit:1400/0\*H\_n8vOAFo7Ku8URW.jpg)**
 
-
-
-
-
-
-**<grok-card data-id="21bef6" data-type="image\_card"  data-arg-size="LARGE" ></grok-card>**
-
-
-
-
-
-
-
-**<grok-card data-id="f3e925" data-type="image\_card"  data-arg-size="LARGE" ></grok-card>**
-
-
+**!\[Retail Insights Visualization](https://www.mastersindatascience.org/wp-content/uploads/sites/54/2022/07/Retail-example.jpg)**
 
 
 
@@ -154,15 +126,15 @@
 
 
 
-**- Certain product categories (e.g., Clothing, Accessories) show higher engagement**
+**- Certain product categories show higher customer engagement**
 
-**- Purchasing behavior varies significantly across age groups and gender**
+**- Purchasing behavior varies across age groups and gender**
 
-**- Subscription status strongly influences buying patterns and loyalty**
+**- Subscription status influences buying patterns**
 
-**- Some payment methods are overwhelmingly more popular**
+**- Some payment methods are significantly more popular than others**
 
-**- Purchase frequency highlights customer retention opportunities**
+**- Purchase frequency provides insights into customer loyalty**
 
 
 
