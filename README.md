@@ -92,7 +92,8 @@ shopping-trends-analysis/
 │   └── Shopping_Trends.ipynb
 │
 ├── README.md
-└── requirements.txt  
+└── requirements.txt
+
 
 ---
 
