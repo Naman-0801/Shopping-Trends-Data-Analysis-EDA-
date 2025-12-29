@@ -68,14 +68,14 @@ The following EDA steps were carried out:
 ## 🚀 How to Run the Project Locally
 
 ### 1️⃣ Clone the Repository
-git clone <your-repository-url>  
-cd shopping-trends-analysis  
+    git clone <your-repository-url>
+    cd shopping-trends-analysis
 
 ### 2️⃣ Install Dependencies
-pip install -r requirements.txt  
+    pip install -r requirements.txt
 
 ### 3️⃣ Open Jupyter Notebook
-jupyter notebook  
+    jupyter notebook
 
 ### 4️⃣ Run the Analysis
 Run all cells in the notebook to reproduce the analysis and visualizations.
@@ -83,13 +83,18 @@ Run all cells in the notebook to reproduce the analysis and visualizations.
 ---
 
 ## 📁 Repository Structure
-shopping-trends-analysis/
-├── data/
-│   └── shopping_trends.csv
-├── notebooks/
-│   └── Shopping_Trends.ipynb
-├── README.md
-└── requirements.txt
+
+    shopping-trends-analysis/
+    │
+    ├── data/
+    │   └── shopping_trends.csv
+    │
+    ├── notebooks/
+    │   └── Shopping_Trends.ipynb
+    │
+    ├── README.md
+    └── requirements.txt
+
 ---
 
 ## 👤 Author
