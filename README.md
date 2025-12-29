@@ -22,17 +22,17 @@
 
 **### Key Features Include:**
 
-**- Customer age and gender**  
+**- Customer age and gender**
 
-**- Product category**  
+**- Product category**
 
-**- Purchase amount**  
+**- Purchase amount**
 
-**- Payment method**  
+**- Payment method**
 
-**- Purchase frequency**  
+**- Purchase frequency**
 
-**- Subscription status**  
+**- Subscription status**
 
 
 
@@ -46,15 +46,15 @@
 
 **## 🎯 Objectives**
 
-**- Analyze customer purchasing patterns**  
+**- Analyze customer purchasing patterns**
 
-**- Identify popular product categories**  
+**- Identify popular product categories**
 
-**- Understand spending behavior across demographics**  
+**- Understand spending behavior across demographics**
 
-**- Examine differences between subscribed and non-subscribed customers**  
+**- Examine differences between subscribed and non-subscribed customers**
 
-**- Explore preferred payment methods and purchase frequency**  
+**- Explore preferred payment methods and purchase frequency**
 
 
 
@@ -66,31 +66,31 @@
 
 **The following EDA steps were carried out:**
 
-**- Data loading and initial inspection**  
+**- Data loading and initial inspection**
 
-**- Understanding dataset structure and feature types**  
+**- Understanding dataset structure and feature types**
 
-**- Frequency analysis of categorical variables**  
+**- Frequency analysis of categorical variables**
 
-**- Aggregations using `groupby()`**  
+**- Aggregations using `groupby()`**
 
-**- Univariate and bivariate analysis**  
+**- Univariate and bivariate analysis**
 
-**- Visualization of trends using charts**  
+**- Visualization of trends using charts**
 
 
 
 **### Comparisons Were Performed Across:**
 
-**- Gender**  
+**- Gender**
 
-**- Age groups**  
+**- Age groups**
 
-**- Product categories**  
+**- Product categories**
 
-**- Payment methods**  
+**- Payment methods**
 
-**- Subscription status**  
+**- Subscription status**
 
 
 
@@ -100,15 +100,15 @@
 
 **## 📈 Key Insights**
 
-**- Certain product categories show higher customer engagement**  
+**- Certain product categories show higher customer engagement**
 
-**- Purchasing behavior varies across age groups and gender**  
+**- Purchasing behavior varies across age groups and gender**
 
-**- Subscription status influences buying patterns**  
+**- Subscription status influences buying patterns**
 
-**- Some payment methods are significantly more popular than others**  
+**- Some payment methods are significantly more popular than others**
 
-**- Purchase frequency provides insights into customer loyalty**  
+**- Purchase frequency provides insights into customer loyalty**
 
 
 
@@ -118,13 +118,13 @@
 
 **## 🛠️ Tools \& Technologies**
 
-**- Python**  
+**- Python**
 
-**- Pandas \& NumPy**  
+**- Pandas \& NumPy**
 
-**- Matplotlib \& Seaborn**  
+**- Matplotlib \& Seaborn**
 
-**- Jupyter Notebook**  
+**- Jupyter Notebook**
 
 
 
@@ -138,11 +138,69 @@
 
 **### 1️⃣ Clone the Repository**
 
-**```bash**
+    **git clone <your-repository-url>**
 
-**git clone <your-repository-url>**
+    **cd shopping-trends-analysis**
 
-**cd shopping-trends-analysis**
+
+
+**### 2️⃣ Install Dependencies**
+
+    **pip install -r requirements.txt**
+
+
+
+**### 3️⃣ Open Jupyter Notebook**
+
+    **jupyter notebook**
+
+
+
+**### 4️⃣ Run the Analysis**
+
+**Run all cells in the notebook to reproduce the analysis and visualizations.**
+
+
+
+**---**
+
+
+
+**## 📁 Repository Structure**
+
+
+
+    **shopping-trends-analysis/**
+
+    **│**
+
+    **├── data/**
+
+    **│   └── shopping\_trends.csv**
+
+    **│**
+
+    **├── notebooks/**
+
+    **│   └── Shopping\_Trends.ipynb**
+
+    **│**
+
+    **├── README.md**
+
+    **└── requirements.txt**
+
+
+
+**---**
+
+
+
+**## 👤 Author**
+
+**\*\*Naman\*\***  
+
+**Aspiring Data Analyst / Data Scientist**
 
 
 
