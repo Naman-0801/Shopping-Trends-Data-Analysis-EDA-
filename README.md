@@ -1,186 +1,101 @@
-**# 🚨 Fraud Detection Prediction System**
-
-
-
-**An end-to-end \*\*Machine Learning project\*\* that predicts whether a transaction is \*\*fraudulent or legitimate\*\*.**  
-
-**The project includes data analysis, model training, and an interactive \*\*Streamlit web application\*\* for real-time fraud prediction.**
-
-
-
-**---**
-
-
-
-**## 📌 Problem Statement**
-
-**Financial fraud leads to significant financial losses every year.**  
-
-**The goal of this project is to build a machine learning model that can accurately \*\*detect fraudulent transactions\*\* based on input features and assist in reducing risk.**
-
-
-
-**---**
-
-
-
-**## 🧠 Solution Overview**
-
-**- Performed data analysis and preprocessing on transaction data**
-
-**- Trained a machine learning classification model**
-
-**- Saved the trained model for reuse**
-
-**- Developed an interactive Streamlit web application**
-
-**- Designed the project to be clean, reproducible, and easy to run**
-
-
-
-**---**
-
-
-
-**## 🖥️ Application Screenshots**
-
-
-
-**### 🔹 Streamlit User Interface**
-
-**!\[App Home](Assets/Fraud\_detection\_home.png)**
-
-
-
-**### 🔹 Fraud Prediction Result**
-
-**!\[Prediction Result](Assets/prediction\_result.png)**
-
-
-
-**---**
-
-
-
-**## 🛠️ Tech Stack**
-
-**- \*\*Python\*\***
-
-**- \*\*Pandas, NumPy\*\* – data processing**
-
-**- \*\*Scikit-learn\*\* – machine learning**
-
-**- \*\*Streamlit\*\* – web application**
-
-**- \*\*Joblib\*\* – model saving and loading**
-
-**- \*\*Matplotlib, Seaborn\*\* – visualization**
-
-
-
-**---**
-
-
-
-**## 📂 Project Structure**
-
-
-
-    **Project/**
-
-    **├── Fraud-Detection-Streamlit/**
-
-    **│   ├── Fraud\_detection.py**
-
-    **│   └── Model/**
-
-    **│       └── Fraud\_detection\_pipeline.pkl**
-
-    **│**
-
-    **├── NoteBook/**
-
-    **│   └── Analysis\_model.ipynb**
-
-    **│**
-
-    **├── assets/**
-
-    **│   ├── Fraud\_detection\_home.png**
-
-    **│   └── prediction\_result.png**
-
-    **│**
-
-    **├── requirements.txt**
-
-    **├── README.md**
-
-    **├── .gitignore**
-
-
-
-**---**
-
-
-
-**## 🚀 How to Run the Project Locally**
-
-
-
-**### 1️⃣ Clone the repository**
-
-
-
-    **git clone https://github.com/Naman-0801/Fraud\_Detection\_Model.git**
-
-    **cd Project**
-
-
-
-**### 2️⃣ Install dependencies**
-
-
-
-    **pip install -r requirements.txt**
-
-
-
-**### 3️⃣ Run the Streamlit application**
-
-
-
-    **streamlit run Fraud-Detection-Streamlit/Fraud\_detection.py**
-
-
-
-**The application will open automatically in your browser.**
-
-
-
-**---**
-
-
-
-**## 📁 Dataset**
-
-**The dataset used for training is \*\*not included\*\* in this repository due to size limitations.**
-
-
-
-**Dataset source:**  
-
-**https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset**
-
-
-
-**---**
-
-
-
-**## 👤 Author**
-
-**\*\*Naman\*\***  
-
-**Aspiring Data Analyst / Data Scientist**
-
+# 🛍️ Shopping Trends Data Analysis (EDA)
+
+## 📌 Project Overview
+This project performs **Exploratory Data Analysis (EDA)** on shopping trends data to understand customer purchasing behavior, product preferences, and spending patterns.  
+The goal is to extract meaningful **business insights** that support data-driven decision-making in a retail or e-commerce context.
+
+---
+
+## 📊 Dataset Description
+The dataset contains customer shopping information, including demographic details, transaction attributes, and purchase behavior.
+
+### Key Features Include:
+- Customer age and gender
+- Product category
+- Purchase amount
+- Payment method
+- Purchase frequency
+- Subscription status
+
+The dataset includes both **categorical and numerical variables**, making it suitable for comprehensive exploratory analysis.
+
+---
+
+## 🎯 Objectives
+- Analyze customer purchasing patterns
+- Identify popular product categories
+- Understand spending behavior across demographics
+- Examine differences between subscribed and non-subscribed customers
+- Explore preferred payment methods and purchase frequency
+
+---
+
+## 🔍 Exploratory Data Analysis Performed
+The following EDA steps were carried out:
+- Data loading and initial inspection
+- Understanding dataset structure and feature types
+- Frequency analysis of categorical variables
+- Aggregations using `groupby()`
+- Univariate and bivariate analysis
+- Visualization of trends using charts
+
+### Comparisons Were Performed Across:
+- Gender
+- Age groups
+- Product categories
+- Payment methods
+- Subscription status
+
+---
+
+## 📈 Key Insights
+- Certain product categories show higher customer engagement
+- Purchasing behavior varies across age groups and gender
+- Subscription status influences buying patterns
+- Some payment methods are significantly more popular than others
+- Purchase frequency provides insights into customer loyalty
+
+---
+
+## 🛠️ Tools & Technologies
+- Python
+- Pandas & NumPy
+- Matplotlib & Seaborn
+- Jupyter Notebook
+
+---
+
+## 🚀 How to Run the Project Locally
+
+### 1️⃣ Clone the Repository
+git clone <your-repository-url>  
+cd shopping-trends-analysis  
+
+### 2️⃣ Install Dependencies
+pip install -r requirements.txt  
+
+### 3️⃣ Open Jupyter Notebook
+jupyter notebook  
+
+### 4️⃣ Run the Analysis
+Run all cells in the notebook to reproduce the analysis and visualizations.
+
+---
+
+## 📁 Repository Structure
+shopping-trends-analysis/  
+│  
+├── data/  
+│   └── shopping_trends.csv  
+│  
+├── notebooks/  
+│   └── Shopping_Trends.ipynb  
+│  
+├── README.md  
+└── requirements.txt  
+
+---
+
+## 👤 Author
+**Naman**  
+Aspiring Data Analyst / Data Scientist
