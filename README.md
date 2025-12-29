@@ -83,15 +83,15 @@ Run all cells in the notebook to reproduce the analysis and visualizations.
 ---
 
 ## 📁 Repository Structure
-shopping-trends-analysis/  
-│  
-├── data/  
-│   └── shopping_trends.csv  
-│  
-├── notebooks/  
-│   └── Shopping_Trends.ipynb  
-│  
-├── README.md  
+shopping-trends-analysis/
+│
+├── data/
+│   └── shopping_trends.csv
+│
+├── notebooks/
+│   └── Shopping_Trends.ipynb
+│
+├── README.md
 └── requirements.txt  
 
 ---
